@@ -3,12 +3,12 @@ function Contact() {
     <div className="d-flex flex-column justify-content-center align-items-center p-2">
       <div className="display-4 p-4 mb-3">Let's Connect...</div>
 
-      <form className=" shadow p-4 contact-form">
+      <form className=" shadow p-4 contact-form" action="https://formspree.io/f/xrgwnvwk" method="POST">
         <div className="mb-3">
           <label htmlFor="name" className="form-label fw-bold">
             Name
           </label>
-          <input type="text" className="form-control" id="name" />
+          <input type="text" name="name" className="form-control" id="name" />
         </div>
         <div className="mb-3">
           <label htmlFor="email" className="form-label fw-bold">
@@ -16,6 +16,7 @@ function Contact() {
           </label>
           <input
             type="email"
+            name="email"
             className="form-control"
             id="email"
             aria-describedby="emailHelp"
@@ -25,7 +26,7 @@ function Contact() {
           <label htmlFor="message" className="form-label fw-bold">
             Message
           </label>
-          <textarea rows={5} className="form-control" id="message" />
+          <textarea name="message" rows={5} className="form-control" id="message" />
         </div>
         <button
           type="submit"
