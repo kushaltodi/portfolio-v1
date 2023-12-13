@@ -1,0 +1,42 @@
+/* .home {
+    max-height: 100vh;
+} */
+
+.socials :hover {
+    opacity: 0.5;
+}
+
+.contact-form{
+    min-width: 350px;
+}
+
+.skills{
+    max-width: 350px;
+}
+
+.info{
+    max-width: 350px;
+}
+
+.projects{
+    max-width: 350px;
+}
+
+@media screen and (min-width : 600px ){
+
+    .contact-form{
+        min-width: 700px;
+    }
+
+    .skills{
+        min-width: 8000px;
+    }
+
+    .info{
+        max-width: 800px;
+    }
+
+    .projects{
+        max-width: 800;
+    }
+}
