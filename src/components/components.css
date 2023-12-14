@@ -1,6 +1,6 @@
-/* .home {
+.home {
     max-height: 100vh;
-} */
+}
 
 .socials :hover {
     opacity: 0.5;
@@ -29,7 +29,7 @@
     }
 
     .skills{
-        min-width: 8000px;
+        min-width: 800px;
     }
 
     .info{
@@ -37,6 +37,6 @@
     }
 
     .projects{
-        max-width: 800;
+        min-width: 800px;
     }
 }
